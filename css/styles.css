@@ -17,7 +17,7 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: auto;`
+  grid-template-columns: auto;
   width: 100%;
 }
 
@@ -31,7 +31,7 @@ h1, h2, h3 {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  height: 142vh;
   display: flex;
   flex-direction: column;
   justify-content: right;
@@ -39,9 +39,7 @@ h1, h2, h3 {
   padding: 0 20px;
   overflow: hidden;
 }
-#Employment{
-  float: left;
-}
+
 .header h1 {
   padding: 0;
   font-size: 50px;
@@ -360,5 +358,9 @@ h1, h2, h3 {
   .panel-1 .panel-image, .panel-2 .panel-image, .panel-3 .panel-image {
     height: 300px;
     width: inherit;
+  }
+  .footer{
+    display: block;
+    width: 5%;
   }
 }
