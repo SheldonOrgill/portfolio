@@ -138,17 +138,14 @@ h1, h2, h3 {
 }
 
 .panel-1 .panel-image {
-  /*------Activity - Link the Mixer.png inside the url brackets below------*/
   background-image: url("../img/js.png");
 }
 
 .panel-2 .panel-image {
-  /*------Activity - Link the Headphone.png inside the url brackets below------*/
   background-image: url("../img/php_mysql.png");
 }
 
 .panel-3 .panel-image {
-  /*------Activity - Link the DJ-Mixer.png inside the url brackets below------*/
   background-image: url("../img/bootstrap-sass.png");
 }
 
@@ -186,7 +183,7 @@ h1, h2, h3 {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 50vh;
+  height: 55vh;
 }
 
 /* The Modal (background) */
