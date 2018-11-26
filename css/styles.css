@@ -1,6 +1,5 @@
 @font-face {
   font-family: denseFont;
-/*------Activity - Link the roboto.light.ttf inside the url brackets below------*/
   src: url(../font/roboto.light.ttf );
 }
 
@@ -21,17 +20,17 @@ body {
   width: 100%;
 }
 
+/* Font Style */
 h1, h2, h3 {
   font-family: 'denseFont';
 }
 
 .header {
-/*------Activity - Link the hero-image.jpg inside the url brackets below------*/
   background-image: url("../img/pexels-photo-1036808.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 142vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: right;
@@ -244,7 +243,9 @@ h1, h2, h3 {
 }
 
 #contact{
-  color: antiquewhite;
+  color: black;
+  text-align: center;
+  font-size: 30px;
 }
 .Contact{
   text-align: center;
@@ -277,7 +278,20 @@ h1, h2, h3 {
   cursor: pointer;
 }
 
+/* Desktop */
 @media screen and (max-width: 1080px) {
+  .header-text .secondary-button {
+    margin: 10px;
+  }
+  .header-text {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .header{
+    height: 138vh;
+  }
   .plans {
     display: grid;
     grid-template-columns: auto;
@@ -296,8 +310,17 @@ h1, h2, h3 {
     height: 300px;
     width: inherit;
   }
+  .icon{
+    width: 25px;
+    float: left;
+  }
+  .parallax-section{
+    height: 68vh;
+    width: 100%;
+  } 
 }
 
+/* Tablet */
 @media screen and (max-width: 640px) {
   .header-text .secondary-button {
     margin: 10px;
@@ -326,8 +349,22 @@ h1, h2, h3 {
     height: 300px;
     width: inherit;
   }
+.icon{
+  width: 25px;
+  float: left;
+      }
+.footer{
+   padding-bottom: 80%;
+}
+.parallax-section{
+  height: 68vh;
+} 
+ .header{
+  height: 168vh;
+  }
 }
 
+/* Mobile */
 @media screen and (max-width: 320px) {
   .topnav {
     width: 100%;
@@ -359,8 +396,18 @@ h1, h2, h3 {
     height: 300px;
     width: inherit;
   }
+  .icon{
+width: 25px;
+float: left;
+  }
   .footer{
-    display: block;
-    width: 5%;
+  padding-bottom: 80%;
+   
+  }
+  .parallax-section{
+    height: 68vh;
+  } 
+  .header{
+    height: 168vh;
   }
 }
