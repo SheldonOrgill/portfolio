@@ -139,6 +139,7 @@ h1, h2, h3 {
 
 .panel-1 .panel-image {
   background-image: url("../img/js.png");
+  
 }
 
 .panel-2 .panel-image {
@@ -275,7 +276,7 @@ h1, h2, h3 {
   cursor: pointer;
 }
 
-/* Desktop */
+      /* Desktop */
 @media screen and (max-width: 1080px) {
   .header-text .secondary-button {
     margin: 10px;
@@ -317,7 +318,7 @@ h1, h2, h3 {
   } 
 }
 
-/* Tablet */
+      /* Tablet */
 @media screen and (max-width: 640px) {
   .header-text .secondary-button {
     margin: 10px;
@@ -354,15 +355,15 @@ h1, h2, h3 {
    padding-bottom: 80%;
 }
 .parallax-section{
-  height: 68vh;
+  height: 45vh;
 } 
  .header{
   height: 168vh;
   }
 }
 
-/* Mobile */
-@media screen and (max-width: 320px) {
+          /* Mobile */
+  @media screen and (max-width: 320px) {
   .topnav {
     width: 100%;
   }
@@ -394,8 +395,8 @@ h1, h2, h3 {
     width: inherit;
   }
   .icon{
-width: 25px;
-float: left;
+  width: 25px;
+  float: left;
   }
   .footer{
   padding-bottom: 80%;
