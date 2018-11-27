@@ -6,7 +6,7 @@
 - Background Image
 
 ## JavaScript was added
-- Floating of icons an links to other pages of myslef.
+- Floating of icons an links to other pages of myself.
 
 ## Responsiveness
 
