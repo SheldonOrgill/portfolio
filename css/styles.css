@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 @font-face {
   font-family: denseFont;
   src: url(../font/roboto.light.ttf );
@@ -12,6 +15,8 @@ body {
 .about {
   text-align: right;
   color: black;
+  /* font-size: 20px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif
   /* background-color: #000; */
 }
 .container {
@@ -26,11 +31,11 @@ h1, h2, h3 {
 }
  
 .header {
-  background-image: url("../img/pexels-photo-1036808.jpeg");
+  background-image: url("../img/pexels-photo-265047.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: right;
@@ -47,6 +52,7 @@ h1, h2, h3 {
 .header p {
   padding: 0;
   margin-top: -18px;
+  font-size: 15px'
 }
 
 .header-text {
@@ -180,7 +186,7 @@ h1, h2, h3 {
 
 /**************parallax-section****************/
 .parallax-section {
-  background-image: url("../img/pexels-photo\ \(1\).jpg");
+  background-image: url("../img/pexels-photo-265047.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -241,15 +247,23 @@ h1, h2, h3 {
 }
 
 #contact{
-  color:#c56f36;
+  color:black;
   text-align: center;
   font-size: 30px;
 }
 .Contact{
   text-align: center;
-  position: absolute;
+  position: relative;
   bottom: 10px;
   width: 99%;
+}
+.footer{
+  text-align: center;
+  padding-right: 10%;
+  font-size: 25px;
+  background-color:transparent;
+  margin-left: 10%;
+  
 }
 
 @keyframes theAnimation {
@@ -276,7 +290,9 @@ h1, h2, h3 {
   cursor: pointer;
 }
 
-      /* Desktop */
+/*==================== Desktop================== */
+
+
 @media screen and (max-width: 1080px) {
   .header-text .secondary-button {
     margin: 10px;
@@ -288,7 +304,7 @@ h1, h2, h3 {
     transform: translate(-50%, -50%);
   }
   .header{
-    height: 190vh;
+    height: 143vh;
   }
   .plans {
     display: grid;
@@ -319,8 +335,10 @@ h1, h2, h3 {
   } 
 }
 
-      /* Tablet */
-@media screen and ( min-width:321px and max-width: 640px) {
+/* ===================Tablet========================= */
+
+
+@media screen and ( max-width: 640px) {
   .header-text .secondary-button {
     margin: 10px;
   }
@@ -354,16 +372,21 @@ h1, h2, h3 {
       }
 .footer{
    padding-bottom: 80%;
+   font-size: 15px;
+   padding-right: 20%;
 }
 .parallax-section{
-  height: 45vh;
+  height: 98vh;
 } 
  .header{
   height: 180vh;
   }
 }
 
-          /* Mobile */
+
+
+  /* =====================Mobile====================*/
+
   @media screen and (max-width: 320px) {
   .topnav {
     width: 100%;
@@ -401,10 +424,13 @@ h1, h2, h3 {
   }
   .footer{
   padding-bottom: 60%;
+  font-size: 13px;
+  width: auto;
    
   }
   .parallax-section{
     height: 68vh;
+    width: inherit;
   } 
   .header{
     height: 168vh;

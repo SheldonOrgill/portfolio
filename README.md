@@ -4,6 +4,12 @@
 - Navbar was add 
 - Grid layout.
 - Background Image
+- will continuesly update as i learn new tricks and new languages
+
+## Software
+
+- Visual Studio
+- Atom
 
 ## JavaScript was added
 - Floating of icons an links to other pages of myself.
@@ -14,6 +20,8 @@
 - Tablet
 - Desktop
 
+## Author
++ Sheldon Orgill
 Live link:https://sheldonorgill.github.io/portfolio/index.html
 
 
