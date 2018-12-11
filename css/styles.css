@@ -104,7 +104,7 @@ h1, h2, h3 {
 .intro-section {
   display: grid;
   grid-template-columns: auto 80% auto;
-  padding: 75px 0;
+  /* padding: 75px 0; */
   background-color: white;
   text-align: center;
   justify-content: center;
@@ -304,7 +304,7 @@ h1, h2, h3 {
     transform: translate(-50%, -50%);
   }
   .header{
-    height: 143vh;
+    height: 94vh;
   }
   .plans {
     display: grid;
@@ -330,7 +330,7 @@ h1, h2, h3 {
     float: left;
   }
   .parallax-section{
-    height: 90vh;
+    height: 53vh;
     width: 100%;
   } 
 }
@@ -373,13 +373,20 @@ h1, h2, h3 {
 .footer{
    padding-bottom: 80%;
    font-size: 15px;
-   padding-right: 20%;
+   /* padding-right: 20%; */
 }
 .parallax-section{
-  height: 98vh;
+  height: 50vh;
 } 
  .header{
-  height: 180vh;
+  height: 128vh;
+  }
+  .intro-text p{
+    font-size: 14px;
+  }
+  .Employment p{
+    font-size: 10px;
+
   }
 }
 
